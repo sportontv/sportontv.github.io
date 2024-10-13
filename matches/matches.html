@@ -12,7 +12,7 @@
             padding: 20px;
             background-color: #f0f0f0;
         }
-        h1 {
+        h1, h2 {
             color: #333;
             text-align: center;
         }
@@ -51,33 +51,78 @@
             font-size: 0.9em;
             color: #495057;
         }
+        .category {
+            margin-bottom: 20px;
+        }
+        .category-header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .category-content {
+            display: none;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #007bff;
+            border-radius: 0 0 5px 5px;
+        }
     </style>
 </head>
 <body>
     <h1>SportOnTV - Sport Events</h1>
     <p>All dates and times are UK GMT timezone. The flag beside each match indicates the language of the channel.</p>
-    <h3>Football:</h3>
-    <ul>
-        <li><a href="football/aze-slo.html"><img src="flags/england.png" class="flag">Azerbaijan - Slovakia (UEFA Nations League) | 14/10/2024, 16:00</a></li>
-        <li><a href="football/geo-alb.html"><img src="flags/england.png" class="flag">Georgia - Albania (UEFA Nations League) | 14/10/2024, 16:00</a></li>
-        <li><a href="football/simulcast.html"><img src="flags/greece.svg" class="flag">Simulcast (UEFA Nations League) | 14/10/2024, 18:45</a></li>
-        <li><a href="football/ukr-cze.html"><img src="flags/england.png" class="flag">Ukraine - Czech Republic (UEFA Nations League) | 14/10/2024, 18:45</a></li>
-        <li><a href="football/ice-tur.html"><img src="flags/england.png" class="flag">Iceland - Turkey (UEFA Nations League) | 14/10/2024, 18:45</a></li>
-        <li><a href="football/wal-mon.html"><img src="flags/england.png" class="flag">Wales - Montenegro (UEFA Nations League) | 14/10/2024, 18:45</a></li>
-        <li><a href="football/bel-fra.html"><img src="flags/england.png" class="flag">Belgium - France (UEFA Nations League) | 14/10/2024, 18:45</a></li>
-        <li><a href="football/ita-isr.html"><img src="flags/england.png" class="flag">Italy - Israel (UEFA Nations League) | 14/10/2024, 18:45</a></li>
-        <li><a href="football/bos-hun.html"><img src="flags/england.png" class="flag">Bosnia & Herzegovina - Hungary (UEFA Nations League) | 14/10/2024, 18:45</a></li>
-        More matches to be added in a few hours.
-    </ul>
-    <h3>Basketball:</h3>
-    <ul>
-        <li><a href="basketball/hea-pel.html"><img src="flags/england.png" class="flag">Miami Heat - New Orleans Pelicans (NBA - Preseason) | 13/10/2024, 20:30</a></li>
-        <li><a href="basketball/kni-tim.html"><img src="flags/england.png" class="flag">New York Knicks - Minnesota Timberwolves (NBA - Preseason) | 13/10/2024, 23:00</a></li>
-        <li><a href="basketball/cel-rap.html"><img src="flags/england.png" class="flag">Boston Celtics - Toronto Raptors (NBA - Preseason) | 14/10/2024, 00:00</a></li>
-    </ul>
-    <h3>Motorsport:</h3>
+    
+    <div class="category">
+        <div class="category-header" onclick="toggleCategory('football')">Football</div>
+        <div class="category-content" id="football">
+            <ul>
+                <li><a href="football/aze-slo.html"><img src="flags/england.png" class="flag">Azerbaijan - Slovakia (UEFA Nations League) | 14/10/2024, 16:00</a></li>
+                <li><a href="football/geo-alb.html"><img src="flags/england.png" class="flag">Georgia - Albania (UEFA Nations League) | 14/10/2024, 16:00</a></li>
+                <li><a href="football/simulcast.html"><img src="flags/greece.svg" class="flag">Simulcast (UEFA Nations League) | 14/10/2024, 18:45</a></li>
+                <li><a href="football/ukr-cze.html"><img src="flags/england.png" class="flag">Ukraine - Czech Republic (UEFA Nations League) | 14/10/2024, 18:45</a></li>
+                <li><a href="football/ice-tur.html"><img src="flags/england.png" class="flag">Iceland - Turkey (UEFA Nations League) | 14/10/2024, 18:45</a></li>
+                <li><a href="football/wal-mon.html"><img src="flags/england.png" class="flag">Wales - Montenegro (UEFA Nations League) | 14/10/2024, 18:45</a></li>
+                <li><a href="football/bel-fra.html"><img src="flags/england.png" class="flag">Belgium - France (UEFA Nations League) | 14/10/2024, 18:45</a></li>
+                <li><a href="football/ita-isr.html"><img src="flags/england.png" class="flag">Italy - Israel (UEFA Nations League) | 14/10/2024, 18:45</a></li>
+                <li><a href="football/bos-hun.html"><img src="flags/england.png" class="flag">Bosnia & Herzegovina - Hungary (UEFA Nations League) | 14/10/2024, 18:45</a></li>
+                More matches to be added in a few hours.
+            </ul>
+        </div>
+    </div>
+
+    <div class="category">
+        <div class="category-header" onclick="toggleCategory('basketball')">Basketball</div>
+        <div class="category-content" id="basketball">
+            <ul>
+                <li><a href="basketball/hea-pel.html"><img src="flags/england.png" class="flag">Miami Heat - New Orleans Pelicans (NBA - Preseason) | 13/10/2024, 20:30</a></li>
+                <li><a href="basketball/kni-tim.html"><img src="flags/england.png" class="flag">New York Knicks - Minnesota Timberwolves (NBA - Preseason) | 13/10/2024, 23:00</a></li>
+                <li><a href="basketball/cel-rap.html"><img src="flags/england.png" class="flag">Boston Celtics - Toronto Raptors (NBA - Preseason) | 14/10/2024, 00:00</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="category">
+        <div class="category-header" onclick="toggleCategory('motorsport')">Motorsport</div>
+        <div class="category-content" id="motorsport">
+            <!-- Add motorsport content here -->
+        </div>
+    </div>
+
     <div class="notice">
         <strong>Legal Notice:</strong> The streams accessible through this website are not hosted or broadcast by SportOnTV. All content is sourced from publicly available resources. SportOnTV acts solely as an index of links and an embedded video player. We do not claim ownership or responsibility for the content displayed. For any copyright infringement or DMCA takedown requests, please contact the actual content providers or streaming platforms. SportOnTV respects intellectual property rights and complies with the Digital Millennium Copyright Act (DMCA).
     </div>
+
+    <script>
+        function toggleCategory(categoryId) {
+            var content = document.getElementById(categoryId);
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>

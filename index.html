@@ -16,24 +16,28 @@
             color: #333;
             text-align: center;
         }
-        ul {
+        .channel-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
             list-style-type: none;
             padding: 0;
         }
-        li {
-            margin-bottom: 10px;
+        .channel-grid li {
+            margin-bottom: 0;
         }
-        a {
+        .channel-grid a {
             display: block;
-            padding: 10px;
+            padding: 8px;
             background-color: #007bff;
             color: white;
             text-decoration: none;
             border-radius: 5px;
             text-align: center;
             transition: background-color 0.3s;
+            font-size: 0.9em;
         }
-        a:hover {
+        .channel-grid a:hover {
             background-color: #0056b3;
         }
         .notice {
@@ -46,6 +50,9 @@
             color: #495057;
         }
         .matches {
+            margin-top: 20px;
+        }
+        .matches a {
             display: block;
             padding: 10px;
             background-color: red;
@@ -59,7 +66,7 @@
 </head>
 <body>
     <h1>SportOnTV</h1>
-    <ul>
+    <ul class="channel-grid">
         <li><a href="channels/tnt-sports-1.html">TNT Sports 1</a></li>
         <li><a href="channels/tnt-sports-2.html">TNT Sports 2</a></li>
         <li><a href="channels/tnt-sports-3.html">TNT Sports 3</a></li>
@@ -74,10 +81,10 @@
         <li><a href="channels/sky-sports-premier-league.html">Sky Sports Premier League</a></li>
         <li><a href="channels/eurosport-1-uk.html">Eurosport 1 UK</a></li>
         <li><a href="channels/eurosport-2-uk.html">Eurosport 2 UK</a></li>
-        <div class="matches">
-            <li><a href="matches/matches.html">Sport Events</a></li>
-        </div>
     </ul>
+    <div class="matches">
+        <a href="matches/matches.html">Sport Events</a>
+    </div>
     <div class="notice">
         <strong>Legal Notice:</strong> The streams accessible through this website are not hosted or broadcast by SportOnTV. All content is sourced from publicly available resources. SportOnTV acts solely as an index of links and an embedded video player. We do not claim ownership or responsibility for the content displayed. For any copyright infringement or DMCA takedown requests, please contact the actual content providers or streaming platforms. SportOnTV respects intellectual property rights and complies with the Digital Millennium Copyright Act (DMCA).
     </div>
