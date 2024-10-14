@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 800px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
             background-color: #f0f0f0;
@@ -68,54 +68,84 @@
             border: 1px solid #007bff;
             border-radius: 0 0 5px 5px;
         }
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .categories-container {
+            width: 48%;
+        }
+        .iframe-container {
+            width: 48%;
+        }
+        @media (max-width: 768px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+            .categories-container,
+            .iframe-container {
+                width: 100%;
+            }
+            .iframe-container {
+                margin-bottom: 20px;
+            }
+        }
     </style>
 </head>
-<!--divider: <li><hr style="border: 0; height: 1px; background-color: #007bff; margin: 10px 0;"></li>-->
 <body>
     <h1>SportOnTV - Sport Events</h1>
     <p>All dates and times are UK GMT timezone. The flag beside each match indicates the language of the channel.</p>
     
-    <div class="category">
-        <div class="category-header" onclick="toggleCategory('football')">Football</div>
-        <div class="category-content" id="football">
-            <ul>
-                <li><a href="football/aze-slo.html"><img src="../flags/england.png" class="flag">Azerbaijan - Slovakia (UEFA Nations League) | 14/10/2024, 16:00</a></li>
-                <li><a href="football/geo-alb.html"><img src="../flags/england.png" class="flag">Georgia - Albania (UEFA Nations League) | 14/10/2024, 16:00</a></li>
-                <li><a href="football/simulcast.html"><img src="../flags/greece.svg" class="flag">Simulcast (UEFA Nations League) | 14/10/2024, 18:45</a></li>
-                <li><a href="football/ukr-cze.html"><img src="../flags/england.png" class="flag">Ukraine - Czech Republic (UEFA Nations League) | 14/10/2024, 18:45</a></li>
-                <li><a href="football/ice-tur.html"><img src="../flags/england.png" class="flag">Iceland - Turkey (UEFA Nations League) | 14/10/2024, 18:45</a></li>
-                <li><a href="football/wal-mon.html"><img src="../flags/england.png" class="flag">Wales - Montenegro (UEFA Nations League) | 14/10/2024, 18:45</a></li>
-                <li><a href="football/bel-fra.html"><img src="../flags/england.png" class="flag">Belgium - France (UEFA Nations League) | 14/10/2024, 18:45</a></li>
-                <li><a href="football/ita-isr.html"><img src="../flags/england.png" class="flag">Italy - Israel (UEFA Nations League) | 14/10/2024, 18:45</a></li>
-                <li><a href="football/bos-hun.html"><img src="../flags/england.png" class="flag">Bosnia & Herzegovina - Hungary (UEFA Nations League) | 14/10/2024, 18:45</a></li>
-                <li><a href="football/ger-ned.html"><img src="../flags/england.png" class="flag">Germany - Netherlands (UEFA Nations League) | 14/10/2024, 18:45</a></li>
-                <li><a href="football/est-swe.html"><img src="../flags/england.png" class="flag">Estonia - Sweden (UEFA Nations League) | 14/10/2024, 18:45</a></li>
-            </ul>
+    <div class="content-wrapper">
+        <div class="iframe-container">
+            <iframe id="sofa-standings-embed-138314-61644" src="https://widgets.sofascore.com/embed/tournament/138314/season/61644/standings/UEFA%20Champions%20League?widgetTitle=UEFA%20Champions%20League&showCompetitionLogo=true" style="height:1752.5px!important;max-width:100%!important;width:100%!important;" frameborder="0" scrolling="no"></iframe>
         </div>
-    </div>
+        
+        <div class="categories-container">
+            <div class="category">
+                <div class="category-header" onclick="toggleCategory('football')">Football</div>
+                <div class="category-content" id="football">
+                    <ul>
+                        <li><a href="football/aze-slo.html"><img src="../flags/england.png" class="flag">Azerbaijan - Slovakia (UEFA Nations League) | 14/10/2024, 16:00</a></li>
+                        <li><a href="football/geo-alb.html"><img src="../flags/england.png" class="flag">Georgia - Albania (UEFA Nations League) | 14/10/2024, 16:00</a></li>
+                        <li><a href="football/simulcast.html"><img src="../flags/greece.svg" class="flag">Simulcast (UEFA Nations League) | 14/10/2024, 18:45</a></li>
+                        <li><a href="football/ukr-cze.html"><img src="../flags/england.png" class="flag">Ukraine - Czech Republic (UEFA Nations League) | 14/10/2024, 18:45</a></li>
+                        <li><a href="football/ice-tur.html"><img src="../flags/england.png" class="flag">Iceland - Turkey (UEFA Nations League) | 14/10/2024, 18:45</a></li>
+                        <li><a href="football/wal-mon.html"><img src="../flags/england.png" class="flag">Wales - Montenegro (UEFA Nations League) | 14/10/2024, 18:45</a></li>
+                        <li><a href="football/bel-fra.html"><img src="../flags/england.png" class="flag">Belgium - France (UEFA Nations League) | 14/10/2024, 18:45</a></li>
+                        <li><a href="football/ita-isr.html"><img src="../flags/england.png" class="flag">Italy - Israel (UEFA Nations League) | 14/10/2024, 18:45</a></li>
+                        <li><a href="football/bos-hun.html"><img src="../flags/england.png" class="flag">Bosnia & Herzegovina - Hungary (UEFA Nations League) | 14/10/2024, 18:45</a></li>
+                        <li><a href="football/ger-ned.html"><img src="../flags/england.png" class="flag">Germany - Netherlands (UEFA Nations League) | 14/10/2024, 18:45</a></li>
+                        <li><a href="football/est-swe.html"><img src="../flags/england.png" class="flag">Estonia - Sweden (UEFA Nations League) | 14/10/2024, 18:45</a></li>
+                    </ul>
+                </div>
+            </div>
 
-    <div class="category">
-        <div class="category-header" onclick="toggleCategory('basketball')">Basketball</div>
-        <div class="category-content" id="basketball">
-            <ul>
-            </ul>
-        </div>
-    </div>
+            <div class="category">
+                <div class="category-header" onclick="toggleCategory('basketball')">Basketball</div>
+                <div class="category-content" id="basketball">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
 
-    <div class="category">
-        <div class="category-header" onclick="toggleCategory('motorsport')">Motorsport</div>
-        <div class="category-content" id="motorsport">
-            <ul>
-                <li><a href="../channels/sky-sports-f1.html"><img src="../flags/england.png" class="flag">F1 USA GP (Use this link for all the sessions of the weekend)</a></li>
-            </ul>
-        </div>
-    </div>
+            <div class="category">
+                <div class="category-header" onclick="toggleCategory('motorsport')">Motorsport</div>
+                <div class="category-content" id="motorsport">
+                    <ul>
+                        <li><a href="../channels/sky-sports-f1.html"><img src="../flags/england.png" class="flag">F1 USA GP (Use this link for all the sessions of the weekend)</a></li>
+                    </ul>
+                </div>
+            </div>
 
-    <div class="category">
-        <div class="category-header" onclick="toggleCategory('snooker')">Snooker</div>
-        <div class="category-content" id="snooker">
-            <ul>
-            </ul>
+            <div class="category">
+                <div class="category-header" onclick="toggleCategory('snooker')">Snooker</div>
+                <div class="category-content" id="snooker">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 
