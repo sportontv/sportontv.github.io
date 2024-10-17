@@ -18,19 +18,22 @@
         .embed-container {
             width: 100%;
             max-width: 800px;
-            height: 360px;  /* Set fixed height */
-            overflow: hidden; /* Hide overflow content */
+            height: 360px;  /* Match iframe height */
+            overflow: hidden;
             position: relative;
         }
         iframe {
             position: absolute;
-            top: -200px;  /* Adjust this value to "scroll" the content */
+            top: -200px;  /* Scroll amount */
+            width: 640px;
+            height: 560px;  /* Original height (360px) + scroll amount (200px) */
+            border: none;
         }
     </style>
 </head>
 <body>
     <div class="embed-container">
-        <iframe allow='encrypted-media' width='640' height='360' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' allowfullscreen='yes' src='https://strikeout.im/atp-tour/1/atp-almaty-rithvik-choudary-bollipalli-arjun-kadhe-vs-fabien-reboul-sadio-doumbia-stream'></iframe>
+        <iframe allow='encrypted-media' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' allowfullscreen='yes' src='https://strikeout.im/atp-tour/1/atp-almaty-rithvik-choudary-bollipalli-arjun-kadhe-vs-fabien-reboul-sadio-doumbia-stream'></iframe>
     </div>
 </body>
 </html>
