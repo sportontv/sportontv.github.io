@@ -28,7 +28,23 @@
 </head>
 <body>
     <div class="embed-container">
-        <iframe allow='encrypted-media' width='640' height='360' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' allowfullscreen='yes' src='https://strikeout.im/atp-tour/1/atp-almaty-rithvik-choudary-bollipalli-arjun-kadhe-vs-fabien-reboul-sadio-doumbia-stream'></iframe>
+        <iframe id="sportsIframe" allow='encrypted-media' width='640' height='360' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' allowfullscreen='yes' src='https://strikeout.im/atp-tour/1/atp-almaty-rithvik-choudary-bollipalli-arjun-kadhe-vs-fabien-reboul-sadio-doumbia-stream'></iframe>
     </div>
+
+    <script>
+        // Wait for iframe to load
+        document.getElementById('sportsIframe').onload = function() {
+            try {
+                // Attempt to scroll the iframe
+                const iframe = document.getElementById('sportsIframe');
+                iframe.contentWindow.scrollTo(0, 200);
+                
+                // Alternative approach
+                iframe.contentDocument.documentElement.scrollTop = 200;
+            } catch (error) {
+                console.log("Cannot manipulate iframe content due to same-origin policy");
+            }
+        };
+    </script>
 </body>
 </html>
