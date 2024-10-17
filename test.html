@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SportOnTV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
-        }
-        .embed-container {
-            width: 100%;
-            max-width: 800px;
-            height: 380px;  /* Increased container height a bit */
-            overflow: hidden;
-            position: relative;
-        }
-        iframe {
-            position: absolute;
-            top: -242px;  /* Increased scroll amount (200 + 42) */
-            width: 640px;
-            height: 622px;  /* Increased height (380 + 242) */
-            border: none;
-        }
-    </style>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SportOnTV</title>
+   <style>
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 100vh;
+           background-color: #f0f0f0;
+       }
+       .embed-container {
+           width: 100%;
+           max-width: 800px;
+           height: 360px;  /* Decreased by 20px from 380px */
+           overflow: hidden;
+           position: relative;
+       }
+       iframe {
+           position: absolute;
+           top: -242px;  /* Keeping same scroll amount */
+           width: 640px;
+           height: 602px;  /* Decreased by 20px from 622px */
+           border: none;
+       }
+   </style>
 </head>
 <body>
-    <div class="embed-container">
-        <iframe allow='encrypted-media' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' allowfullscreen='yes' src='https://strikeout.im/atp-tour/1/atp-almaty-rithvik-choudary-bollipalli-arjun-kadhe-vs-fabien-reboul-sadio-doumbia-stream'></iframe>
-    </div>
+   <div class="embed-container">
+       <iframe allow='encrypted-media' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' allowfullscreen='yes' src='https://strikeout.im/atp-tour/1/atp-almaty-rithvik-choudary-bollipalli-arjun-kadhe-vs-fabien-reboul-sadio-doumbia-stream'></iframe>
+   </div>
 </body>
 </html>
