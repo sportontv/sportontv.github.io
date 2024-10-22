@@ -28,3 +28,11 @@ Football | UEFA Champions League | Real Madrid - Borussia Dortmund
 22:00
 TNT Sports 2 (sportontv.github.io/channels/tnt-sports-2.html)
 Cosmote Sport 2 (sportontv.github.io/channels/cosmote-sport-2.html)
+----------
+Football | UEFA Champions League | Girona - Slovan Bratislava
+22:00
+TNT Sports (sportontv.github.io/matches/football/gir-slo.html)
+----------
+Football | UEFA Champions League | Paris Saint Germain - PSV Eindhoven
+22:00
+TNT Sports (sportontv.github.io/matches/football/psg-psv.html)
