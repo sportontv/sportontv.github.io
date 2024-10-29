@@ -8,15 +8,6 @@ Sports we cover: Football, Basketball, Tennis, Formula One, WRC
 
 All times are GMT +3 (UTC +2)
 
-29/10/2024
--------------------------------------------------------------------
-Football | Serie A | Milan - Napoli
-21:45
-Cosmote Sport 2 (sportontv.github.io/channels/cosmote-sport-2)
-CBS Sports (sportontv.github.io/matches/football/mil-nap)
-DAZN 1 Italy (sportontv.github.io/matches/football/mil-nap-it)
-Supersport Football [I'm adding this to test out something] (sportontv.github.io/matches/football/mil-nap-2)
-
 30/10/2024
 -------------------------------------------------------------------
 Football | Serie A | Empoli - Inter
