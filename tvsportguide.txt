@@ -1,5 +1,11 @@
 Sport Guide for TV Channels on "sportontv.github.io"
 
+LINKS FOR THE MATCHES ARE ADDED NOT EARLIER THAN 1 HOUR BEFORE THE MATCH. IF THEY ARE DELAYED IT IS PROBABLY SOURCE ISSUE.
+
+WE WILL START ADDING ATP 1000 PARIS MATCHES ONCE THEY REACH SEMI-FINALS.
+
+Sports we cover: Football, Basketball, Tennis, Formula One, WRC
+
 All times are GMT +3 (UTC +2)
 
 29/10/2024
@@ -13,3 +19,25 @@ DAZN 1 Italy (sportontv.github.io/matches/football/mil-nap-it)
 Basketball | Euroleague | Olympiacos - Real Madrid
 21:15
 (sportontv.github.io/matches/basketball/oly-rea)
+
+30/10/2024
+-------------------------------------------------------------------
+Football | Serie A | Empoli - Inter
+19:30
+
+-------------------------------------------------------------------
+Football | Serie A | Venezia - Udinese
+19:30
+
+-------------------------------------------------------------------
+Football | Serie A | Atalanta - Monza
+21:45
+
+-------------------------------------------------------------------
+Football | Serie A | Juventus - Parma
+21:45
+
+-------------------------------------------------------------------
+Football | Eredivisie | Feyenoord - Ajax
+21:45
+
