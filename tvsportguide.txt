@@ -1,42 +1,9 @@
 Sport Guide for TV Channels on "sportontv.github.io"
 
-THESE ARE OLD LINKS (We have temporarily stopped updating the site for matches, we will try to continue soon.)
-
 All times are GMT +3 (UTC +2)
 
-23/10/2024
+29/10/2024
 -------------------------------------------------------------------
-Football | UEFA Champions League | Simulcast
-19:45
-22:00
-Cosmote Sport 1 (sportontv.github.io/channels/cosmote-sport-1.html)
--------------------------------------------------------------------
-Football | UEFA Champions League | AC Milan - Club Brugge
-19:45
-TNT Sports 2 (sportontv.github.io/channels/tnt-sports-2.html)
--------------------------------------------------------------------
-Football | UEFA Champions League | Monaco - FK Crvena Zvezda
-19:45
-TNT Sports 4 (sportontv.github.io/channels/tnt-sports-4.html)
--------------------------------------------------------------------
-Football | UEFA Champions League | Aston Villa - Bologna
-22:00
-TNT Sports 1 (sportontv.github.io/channels/tnt-sports-1.html)
--------------------------------------------------------------------
-Football | UEFA Champions League | Juventus - VfB Stuttgart
-22:00
-TNT Sports 4 (sportontv.github.io/channels/tnt-sports-4.html)
--------------------------------------------------------------------
-Football | UEFA Champions League | Real Madrid - Borussia Dortmund
-22:00
-TNT Sports 2 (sportontv.github.io/channels/tnt-sports-2.html)
-Cosmote Sport 2 (sportontv.github.io/channels/cosmote-sport-2.html)
--------------------------------------------------------------------
-Football | UEFA Champions League | Girona - Slovan Bratislava
-22:00
-TNT Sports (sportontv.github.io/matches/football/gir-slo.html)
--------------------------------------------------------------------
-Football | UEFA Champions League | Paris Saint Germain - PSV Eindhoven
-22:00
-TNT Sports (sportontv.github.io/matches/football/psg-psv.html)
--------------------------------------------------------------------
+Football | Serie AC | Milan - Napoli
+21:45
+Cosmote Sport 2 (sportontv.github.io/channels/cosmote-sport-2)
