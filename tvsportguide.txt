@@ -15,6 +15,7 @@ Football | Serie A | Milan - Napoli
 Cosmote Sport 2 (sportontv.github.io/channels/cosmote-sport-2)
 CBS Sports (sportontv.github.io/matches/football/mil-nap)
 DAZN 1 Italy (sportontv.github.io/matches/football/mil-nap-it)
+Supersport Football [I'm adding this to test out something] (sportontv.github.io/matches/football/mil-nap-2)
 -------------------------------------------------------------------
 Basketball | Euroleague | Olympiacos - Real Madrid
 21:15
