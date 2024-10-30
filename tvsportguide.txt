@@ -29,3 +29,43 @@ Football | Serie A | Juventus - Parma
 Football | Eredivisie | Feyenoord - Ajax
 19:00
 
+-------------------------------------------------------------------
+Football | Greek Cup Betsson | Egaleo - PAOK
+15:30
+sportontv.github.io/matches/football/ega-pao
+-------------------------------------------------------------------
+Football | Greek Cup Betsson | Atromitos - Panathinaikos
+17:30
+sportontv.github.io/matches/football/atr-pan
+-------------------------------------------------------------------
+Football | Greek Cup Betsson | OFI - Volos
+17:30
+sportontv.github.io/matches/football/ofi-vol
+-------------------------------------------------------------------
+Football | Greek Cup Betsson | AEK - Aris
+19:30
+sportontv.github.io/matches/football/aek-ari
+-------------------------------------------------------------------
+Football | Greek Cup Betsson | Kallithea - Olympiacos
+21:30
+sportontv.github.io/matches/football/kal-oly
+-------------------------------------------------------------------
+Football | EFL Cup | Newcastle - Chelsea
+21:45
+sportontv.github.io/matches/football/new-che
+-------------------------------------------------------------------
+Football | EFL Cup | Tottenham - Manchester City
+22:15
+sportontv.github.io/matches/football/tot-man
+-------------------------------------------------------------------
+Basketball | Euroleague | Zalgiris - Crvena zvezda
+20:00
+sportontv.github.io/matches/basketball/zal-crv
+-------------------------------------------------------------------
+Basketball | Euroleague | Panathinaikos - ASVEL
+21:15
+sportontv.github.io/matches/basketball/pan-asv
+-------------------------------------------------------------------
+Basketball | Euroleague | Partizan Mozzart - Monaco Basket
+20:00
+sportontv.github.io/matches/basketball/par-mon
