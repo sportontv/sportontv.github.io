@@ -14,14 +14,6 @@ All times are GMT +3 (UTC +2)
 
 30/10/2024
 -------------------------------------------------------------------
-Football | Serie A | Empoli - Inter
-19:30
-sportontv.github.io/matches/football/emp-int
--------------------------------------------------------------------
-Football | Serie A | Venezia - Udinese
-19:30
-sportontv.github.io/matches/football/ven-udi
--------------------------------------------------------------------
 Football | Serie A | Atalanta - Monza
 21:45
 sportontv.github.io/matches/football/ata-mon
@@ -42,10 +34,6 @@ Football | EFL Cup | Tottenham - Manchester City
 22:15
 sportontv.github.io/matches/football/tot-man
 -------------------------------------------------------------------
-Basketball | Euroleague | Zalgiris - Crvena zvezda
-20:00
-sportontv.github.io/matches/basketball/zal-crv
--------------------------------------------------------------------
 Basketball | Euroleague | Panathinaikos - ASVEL
 21:15
 sportontv.github.io/matches/basketball/pan-asv
@@ -56,6 +44,62 @@ sportontv.github.io/matches/basketball/par-mon
 
 31/10/2024
 -------------------------------------------------------------------
-Football | --- | - - -
---:--
-sportontv.github.io/matches/football/---
+Football | Serie A | Genoa - Fiorentina
+19:30
+sportontv.github.io/matches/football/gen-fio
+-------------------------------------------------------------------
+Football | Serie A | Como - Lazio
+21:45
+sportontv.github.io/matches/football/com-laz
+-------------------------------------------------------------------
+Football | Serie A | Roma - Torino
+21:45
+sportontv.github.io/matches/football/rom-tor
+-------------------------------------------------------------------
+Football | Greek Cup Betsson | Zakynthos - Asteras
+15:00
+sportontv.github.io/matches/football/zak-ast
+-------------------------------------------------------------------
+Basketball | NBA | Hornets - Raptors
+01:00
+sportontv.github.io/matches/basketball/hor-rap
+-------------------------------------------------------------------
+Basketball | NBA | Cavaliers - Lakers
+01:00
+sportontv.github.io/matches/basketball/cav-lak
+-------------------------------------------------------------------
+Basketball | NBA | Pacers - Celtics
+01:00
+sportontv.github.io/matches/basketball/pac-cel
+-------------------------------------------------------------------
+Basketball | NBA | 76ers - Pistons
+01:00
+sportontv.github.io/matches/basketball/76e-pis
+-------------------------------------------------------------------
+Basketball | NBA | Wizards - Hawks
+01:00
+sportontv.github.io/matches/basketball/wiz-haw
+-------------------------------------------------------------------
+Basketball | NBA | Heat - Knicks
+01:30
+sportontv.github.io/matches/basketball/hea-kni
+-------------------------------------------------------------------
+Basketball | NBA | Bulls - Magic
+02:00
+sportontv.github.io/matches/basketball/bul-mag
+-------------------------------------------------------------------
+Basketball | NBA | Grizzlies - Nets
+02:00
+sportontv.github.io/matches/basketball/gri-net
+-------------------------------------------------------------------
+Basketball | NBA | Thunder - Spurs
+03:30
+sportontv.github.io/matches/basketball/thu-spu
+-------------------------------------------------------------------
+Basketball | NBA | Warriors - Pelicans
+04:00
+sportontv.github.io/matches/basketball/war-pel
+-------------------------------------------------------------------
+Basketball | NBA | Clippers - Trail Blazers
+04:30
+sportontv.github.io/matches/basketball/cli-tra
