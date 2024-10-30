@@ -1,3 +1,352 @@
-This page is currently unavailable...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportOnTV - Match Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
 
-It is supposed to be "sportontv.github.io/tvsportguide.txt", just in a graphical way and not txt. When I am bored I might consider making it.
+        .category {
+            background-color: #fff;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .category-header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            cursor: pointer;
+            user-select: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .category-header:hover {
+            background-color: #45a049;
+        }
+
+        .category-content {
+            display: none;
+            padding: 15px;
+        }
+
+        .category-content.active {
+            display: block;
+        }
+
+        .match-button {
+            display: block;
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 5px auto;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .match-button:hover {
+            background-color: #005f7f;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .match-button:active {
+            transform: translateY(0);
+        }
+
+        /* Adding subtle pulse animation on hover */
+        @keyframes pulse {
+            0% { transform: scale(1) translateY(-2px); }
+            50% { transform: scale(1.01) translateY(-2px); }
+            100% { transform: scale(1) translateY(-2px); }
+        }
+
+        .match-button:hover {
+            animation: pulse 1s infinite;
+        }
+
+        /* Ripple effect */
+        .match-button::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.3s, height 0.3s;
+        }
+
+        .match-button:active::after {
+            width: 200px;
+            height: 200px;
+        }
+
+        /* New styles for separators */
+        .separator {
+            margin: 15px 0;
+            border-bottom: 1px solid #ddd;
+            position: relative;
+        }
+
+        .separator-label {
+            position: absolute;
+            top: -10px;
+            left: 10px;
+            background-color: #fff;
+            padding: 0 10px;
+            color: #666;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        /* Add some space between groups */
+        .match-group {
+            margin-bottom: 20px;
+        }
+
+        .match-group:last-child {
+            margin-bottom: 0;
+        }
+        .search-container {
+            margin: 20px 0;
+            position: relative;
+        }
+
+        #searchInput {
+            width: calc(100% - 20px);
+            padding: 12px;
+            font-size: 16px;
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+            outline: none;
+            transition: box-shadow 0.3s ease;
+        }
+
+        #searchInput:focus {
+            box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #666;
+        }
+
+        /* Style for no results message */
+        .no-results {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-style: italic;
+            display: none;
+        }
+
+        /* Style for highlighting search matches */
+        .highlight {
+            background-color: yellow;
+            padding: 2px;
+            border-radius: 2px;
+        }
+
+        /* Hide empty groups when filtering */
+        .match-group:empty {
+            display: none;
+        }
+
+        .separator.hidden {
+            display: none;
+        }
+
+        /* Animation for showing/hiding elements */
+        .match-button, .match-group, .category {
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .hidden {
+            display: none;
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+    </style>
+</head>
+<body>
+    <h1>SportOnTV - Match Schedule</h1>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search for matches or teams...">
+        <span class="search-icon">🔍</span>
+    </div>
+
+    <div id="noResults" class="no-results">
+        No matches found for your search.
+    </div>
+
+    <div class="category">
+        <div class="category-header">Football</div>
+        <div class="category-content">
+            <div class="match-group">
+                <div class="separator">
+                    <span class="separator-label">Serie A</span>
+                </div>
+                <a href="/matches/football/gen-fio.html" class="match-button">Genoa - Fiorentina | 31/10/2024 19:30</a>
+                <a href="/matches/football/com-laz.html" class="match-button">Como - Lazio | 31/10/2024 21:45</a>
+                <a href="/matches/football/rom-tor.html" class="match-button">Roma - Torino | 31/10/2024 21:45</a>
+            </div>
+            <div class="match-group">
+                <div class="separator">
+                    <span class="separator-label">Greek Cup Betsson</span>
+                </div>
+                <a href="/matches/football/zak-ast.html" class="match-button">Zakynthos - Asteras | 31/10/2024 15:00</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="category">
+        <div class="category-header">Basketball</div>
+        <div class="category-content">
+            <div class="match-group">
+                <div class="separator">
+                    <span class="separator-label">NBA</span>
+                </div>
+                <a href="/matches/basketball/hor-rap.html" class="match-button">Hornets - Raptors | 31/10/2024 01:00</a>
+                <a href="/matches/basketball/cav-lak.html" class="match-button">Cavaliers - Lakers | 31/10/2024 01:00</a>
+                <a href="/matches/basketball/pac-cel.html" class="match-button">Pacers - Celtics | 31/10/2024 01:00</a>
+                <a href="/matches/basketball/76e-pis.html" class="match-button">76ers - Pistons | 31/10/2024 01:00</a>
+                <a href="/matches/basketball/wiz-haw.html" class="match-button">Wizards - Hawks | 31/10/2024 01:00</a>
+                <a href="/matches/basketball/hea-kni.html" class="match-button">Heat - Knicks | 31/10/2024 01:30</a>
+                <a href="/matches/basketball/bul-mag.html" class="match-button">Bulls - Magic | 31/10/2024 02:00</a>
+                <a href="/matches/basketball/gri-net.html" class="match-button">Grizzlies - Nets | 31/10/2024 02:00</a>
+                <a href="/matches/basketball/thu-spu.html" class="match-button">Thunder - Spurs | 31/10/2024 03:30</a>
+                <a href="/matches/basketball/war-pel.html" class="match-button">Warriors - Pelicans | 31/10/2024 04:00</a>
+                <a href="/matches/basketball/cli-tra.html" class="match-button">Clippers - Trail Blazers | 31/10/2024 04:30</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="category">
+        <div class="category-header">Tennis</div>
+        <div class="category-content">
+            <div class="match-group">
+                <div class="separator">
+                    <span class="separator-label">ATP 1000 Paris matches will be added once the tournament reaches quarter-finals</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="category">
+        <div class="category-header">Formula One</div>
+        <div class="category-content">
+            <div class="match-group">
+                <div class="separator">
+                    <span class="separator-label">F1 Sao Paolo - Coming Soon!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="category">
+        <div class="category-header">WRC</div>
+        <div class="category-content">
+        </div>
+    </div>
+
+    <script>
+        const headers = document.querySelectorAll('.category-header');
+        
+        headers.forEach(header => {
+            header.addEventListener('click', () => {
+                const content = header.nextElementSibling;
+                content.classList.toggle('active');
+            });
+        });
+
+        // New search functionality
+        const searchInput = document.getElementById('searchInput');
+        const noResults = document.getElementById('noResults');
+        const categories = document.querySelectorAll('.category');
+
+        searchInput.addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            let foundAny = false;
+
+            categories.forEach(category => {
+                const categoryHeader = category.querySelector('.category-header');
+                const matches = category.querySelectorAll('.match-button');
+                const groups = category.querySelectorAll('.match-group');
+                const separators = category.querySelectorAll('.separator');
+                let foundInCategory = false;
+
+                matches.forEach((match, index) => {
+                    const matchText = match.textContent.toLowerCase();
+                    const matchGroup = match.closest('.match-group');
+                    const separator = matchGroup.querySelector('.separator');
+
+                    if (matchText.includes(searchTerm)) {
+                        match.style.display = 'block';
+                        matchGroup.style.display = 'block';
+                        if (separator) separator.style.display = 'block';
+                        foundInCategory = true;
+                        foundAny = true;
+
+                        // Highlight matching text
+                        const regex = new RegExp(searchTerm, 'gi');
+                        const highlightedText = match.textContent.replace(
+                            regex,
+                            match => `<span class="highlight">${match}</span>`
+                        );
+                        match.innerHTML = highlightedText;
+                    } else {
+                        match.style.display = 'none';
+                    }
+                });
+
+                // Show/hide category based on matches
+                if (foundInCategory) {
+                    category.style.display = 'block';
+                    if (!category.querySelector('.category-content').classList.contains('active')) {
+                        category.querySelector('.category-content').classList.add('active');
+                    }
+                } else {
+                    category.style.display = 'none';
+                }
+            });
+
+            // Show/hide no results message
+            noResults.style.display = foundAny ? 'none' : 'block';
+        });
+
+        // Clear highlights when search is empty
+        searchInput.addEventListener('search', function() {
+            if (this.value === '') {
+                const highlights = document.querySelectorAll('.highlight');
+                highlights.forEach(highlight => {
+                    const parent = highlight.parentNode;
+                    parent.textContent = parent.textContent;
+                });
+            }
+        });
+    </script>
+</body>
+</html>
