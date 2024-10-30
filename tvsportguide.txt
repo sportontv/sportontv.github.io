@@ -34,14 +34,6 @@ Football | Eredivisie | Feyenoord - Ajax
 19:00
 sportontv.github.io/matches/football/fey-aja
 -------------------------------------------------------------------
-Football | Greek Cup Betsson | Egaleo - PAOK
-15:30
-sportontv.github.io/matches/football/ega-pao
--------------------------------------------------------------------
-Football | Greek Cup Betsson | Atromitos - Panathinaikos
-17:30
-sportontv.github.io/matches/football/atr-pan
--------------------------------------------------------------------
 Football | Greek Cup Betsson | OFI - Volos
 17:30
 sportontv.github.io/matches/football/ofi-vol
