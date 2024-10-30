@@ -53,3 +53,9 @@ sportontv.github.io/matches/basketball/pan-asv
 Basketball | Euroleague | Partizan Mozzart - Monaco Basket
 21:45
 sportontv.github.io/matches/basketball/par-mon
+
+31/10/2024
+-------------------------------------------------------------------
+Football | --- | - - -
+--:--
+sportontv.github.io/matches/football/---
