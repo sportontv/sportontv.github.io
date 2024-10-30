@@ -34,10 +34,6 @@ Football | EFL Cup | Tottenham - Manchester City
 22:15
 sportontv.github.io/matches/football/tot-man
 -------------------------------------------------------------------
-Basketball | Euroleague | Panathinaikos - ASVEL
-21:15
-sportontv.github.io/matches/basketball/pan-asv
--------------------------------------------------------------------
 Basketball | Euroleague | Partizan Mozzart - Monaco Basket
 21:45
 sportontv.github.io/matches/basketball/par-mon
@@ -99,7 +95,3 @@ sportontv.github.io/matches/basketball/thu-spu
 Basketball | NBA | Warriors - Pelicans
 04:00
 sportontv.github.io/matches/basketball/war-pel
--------------------------------------------------------------------
-Basketball | NBA | Clippers - Trail Blazers
-04:30
-sportontv.github.io/matches/basketball/cli-tra
