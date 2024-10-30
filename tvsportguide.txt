@@ -12,32 +12,6 @@ YOU CAN REQUEST A MATCH OF A SPORT WE COVER IN OUR DISCORD SERVER BY MAKING A TI
 
 All times are GMT +3 (UTC +2)
 
-30/10/2024
--------------------------------------------------------------------
-Football | Serie A | Atalanta - Monza
-21:45
-sportontv.github.io/matches/football/ata-mon
--------------------------------------------------------------------
-Football | Serie A | Juventus - Parma
-21:45
-sportontv.github.io/matches/football/juv-par
--------------------------------------------------------------------
-Football | Greek Cup Betsson | Kallithea - Olympiacos
-21:30
-sportontv.github.io/matches/football/kal-oly
--------------------------------------------------------------------
-Football | EFL Cup | Newcastle - Chelsea
-21:45
-sportontv.github.io/matches/football/new-che
--------------------------------------------------------------------
-Football | EFL Cup | Tottenham - Manchester City
-22:15
-sportontv.github.io/matches/football/tot-man
--------------------------------------------------------------------
-Basketball | Euroleague | Partizan Mozzart - Monaco Basket
-21:45
-sportontv.github.io/matches/basketball/par-mon
-
 31/10/2024
 -------------------------------------------------------------------
 Football | Serie A | Genoa - Fiorentina
@@ -95,3 +69,5 @@ sportontv.github.io/matches/basketball/thu-spu
 Basketball | NBA | Warriors - Pelicans
 04:00
 sportontv.github.io/matches/basketball/war-pel
+
+THIS PAGE IS DISCONTINUED STARTING FROM TOMORROW 31/10/2024 -> NEW PAGE IS: SPORTONTV.GITHUB.IO/MATCHES
