@@ -29,45 +29,5 @@ sportontv.github.io/matches/football/rom-tor
 Football | Greek Cup Betsson | Zakynthos - Asteras
 15:00
 sportontv.github.io/matches/football/zak-ast
--------------------------------------------------------------------
-Basketball | NBA | Hornets - Raptors
-01:00
-sportontv.github.io/matches/basketball/hor-rap
--------------------------------------------------------------------
-Basketball | NBA | Cavaliers - Lakers
-01:00
-sportontv.github.io/matches/basketball/cav-lak
--------------------------------------------------------------------
-Basketball | NBA | Pacers - Celtics
-01:00
-sportontv.github.io/matches/basketball/pac-cel
--------------------------------------------------------------------
-Basketball | NBA | 76ers - Pistons
-01:00
-sportontv.github.io/matches/basketball/76e-pis
--------------------------------------------------------------------
-Basketball | NBA | Wizards - Hawks
-01:00
-sportontv.github.io/matches/basketball/wiz-haw
--------------------------------------------------------------------
-Basketball | NBA | Heat - Knicks
-01:30
-sportontv.github.io/matches/basketball/hea-kni
--------------------------------------------------------------------
-Basketball | NBA | Bulls - Magic
-02:00
-sportontv.github.io/matches/basketball/bul-mag
--------------------------------------------------------------------
-Basketball | NBA | Grizzlies - Nets
-02:00
-sportontv.github.io/matches/basketball/gri-net
--------------------------------------------------------------------
-Basketball | NBA | Thunder - Spurs
-03:30
-sportontv.github.io/matches/basketball/thu-spu
--------------------------------------------------------------------
-Basketball | NBA | Warriors - Pelicans
-04:00
-sportontv.github.io/matches/basketball/war-pel
 
-THIS PAGE IS DISCONTINUED STARTING FROM TOMORROW 31/10/2024 -> NEW PAGE IS: SPORTONTV.GITHUB.IO/MATCHES
+THIS PAGE IS DISCONTINUED STARTING FROM TOMORROW 01/11/2024 -> NEW PAGE IS: SPORTONTV.GITHUB.IO/MATCHES
