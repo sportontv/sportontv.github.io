@@ -2,32 +2,8 @@ Sport Guide for TV Channels on "sportontv.github.io"
 
 MATCHES ARE ADDED NOT EARLIER THAN 1 HOUR BEFORE THE MATCH. UNTIL THEY ARE ADDED YOU WILL SEE AN EMPTY PAGE IN THEIR LINKS. IF THEY ARE DELAYED IT IS PROBABLY SOURCE ISSUE.
 
-WE TRY TO ADD EVERY MATCH IN ENGLISH LANGUAGE, IF A STREAM IS NOT IN ENGLISH, THEN WE DON'T HAVE AN ENGLISH SOURCE FOR IT.
-
-WE WILL START ADDING ATP 1000 PARIS MATCHES ONCE THEY REACH QUARTER-FINALS.
-
-Sports we cover: Football, Basketball, Tennis, Formula One, WRC (they are displayed in the following list as they are ordered from left to right here)
+Sports we cover: Football, Basketball, Tennis, Formula One, WRC
 
 YOU CAN REQUEST A MATCH OF A SPORT WE COVER IN OUR DISCORD SERVER BY MAKING A TICKET: https://discord.gg/YhQPSSMps2
 
-All times are GMT +3 (UTC +2)
-
-31/10/2024
--------------------------------------------------------------------
-Football | Serie A | Genoa - Fiorentina
-19:30
-sportontv.github.io/matches/football/gen-fio
--------------------------------------------------------------------
-Football | Serie A | Como - Lazio
-21:45
-sportontv.github.io/matches/football/com-laz
--------------------------------------------------------------------
-Football | Serie A | Roma - Torino
-21:45
-sportontv.github.io/matches/football/rom-tor
--------------------------------------------------------------------
-Football | Greek Cup Betsson | Zakynthos - Asteras
-15:00
-sportontv.github.io/matches/football/zak-ast
-
-THIS PAGE IS DISCONTINUED STARTING FROM TOMORROW 01/11/2024 -> NEW PAGE IS: SPORTONTV.GITHUB.IO/MATCHES
+THIS PAGE IS DISCONTINUED -> NEW PAGE IS: SPORTONTV.GITHUB.IO/MATCHES
