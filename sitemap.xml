@@ -178,7 +178,12 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://sportontv.github.io/matches/matches.html</loc>
+  <loc>https://sportontv.github.io/matches/</loc>
+  <lastmod>2024-10-22T13:20:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sportontv.github.io/matches/football/</loc>
   <lastmod>2024-10-22T13:20:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
