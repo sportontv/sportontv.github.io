@@ -194,24 +194,6 @@
             margin-right: 10px;
             object-fit: cover;
         }
-        .ticker-wrapper {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px;
-            overflow: hidden;
-            white-space: nowrap;
-            animation: ticker-scroll 20s linear infinite;
-        }
-
-        .ticker-content {
-            display: inline-block;
-            padding-left: 100%;
-        }
-
-        @keyframes ticker-scroll {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-100%); }
-        }
     </style>
     <script type="text/javascript" data-cfasync="false">
         /*<![CDATA[/* */
@@ -229,11 +211,6 @@
   gtag('config', 'G-ZMQHGLK9FY');
 </script>
 <body>
-    <div class="ticker-wrapper">
-        <div class="ticker-content">
-            Test scrolling text ticker, this area will be used for announcements and other informative stuff.
-        </div>
-    </div>
     <h1>SportOnTV - Match Schedule</h1>
     <h4>Matches are added not earlier than 1 hour before the event. Until they are added you will see an empty page in their links. If they are delayed it is probably source issue.</h4>
     <h4>The flags beside each link indicate the language of the broadcast. If there is no flag that means the broadcast of the event is in English. (You can request a language in our Discord Server)</h4>
