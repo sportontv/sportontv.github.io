@@ -11,13 +11,16 @@
             padding: 0;
             width: 100%;
             height: 100%;
-            overflow-y: auto;
+            overflow: hidden;
         }
         .iframe-container {
-            position: relative; /* Changed from fixed to relative */
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
             width: 100%;
-            height: 100vh; /* Use viewport height */
-            margin-bottom: 20px; /* Add some space below iframe */
+            height: 100%;
         }
         iframe {
             width: 100%;
@@ -37,7 +40,7 @@
             allow="encrypted-media" 
             marginwidth="0" 
             marginheight="0" 
-            scrolling="no" 
+            scrolling="yes" 
             frameborder="0" 
             allowfullscreen="yes" 
             src="https://embedsports.me/1/juventus-vs-psv-eindhoven-stream-1">
