@@ -234,6 +234,20 @@
             margin-top: 10px;
             font-size: 14px;
         }
+        .adblock-watermark {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 14px;
+        opacity: 0.7;
+        pointer-events: none;
+        z-index: 1000;
+        display: none;
+    }
     </style>
     <script type="text/javascript" data-cfasync="false">
         /*<![CDATA[/* */
@@ -278,6 +292,8 @@
             window.setTimeout(function() {
                 if (testAd.offsetHeight === 0) {
                     showAdblockMessage();
+                    // Show watermark
+                    document.getElementById('adblockWatermark').style.display = 'block';
                 }
                 testAd.remove();
             }, 100);
@@ -622,5 +638,9 @@
         })();
     </script>
     <!--End of Tawk.to Script-->
+
+    <div class="adblock-watermark" id="adblockWatermark">
+        Please consider disabling your adblock.
+    </div>
 </body>
 </html>
