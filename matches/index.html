@@ -195,6 +195,44 @@
             margin-right: 10px;
             object-fit: cover;
         }
+
+        .adblock-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+        .adblock-message {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 500px;
+            margin: 20px;
+        }
+        .skip-button {
+            background: #ccc;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: not-allowed;
+            margin-top: 20px;
+        }
+        .skip-button.active {
+            background: #007bff;
+            cursor: pointer;
+        }
+        .timer {
+            color: #666;
+            margin-top: 10px;
+            font-size: 14px;
+        }
     </style>
     <script type="text/javascript" data-cfasync="false">
         /*<![CDATA[/* */
@@ -211,6 +249,71 @@
 
   gtag('config', 'G-ZMQHGLK9FY');
 </script>
+
+
+    <div class="adblock-overlay" id="adblockOverlay">
+        <div class="adblock-message">
+            <h2>AdBlock Detected</h2>
+            <p>We've noticed that you're using an ad blocker. We rely on advertising revenue to maintain and improve SportOnTV. Please consider supporting us by disabling your ad blocker.</p>
+            <p>How to disable AdBlock:</p>
+            <ol style="text-align: left;">
+                <li>Click on the AdBlock icon in your browser</li>
+                <li>Choose "Pause on this site" or "Don't run on this site"</li>
+                <li>Reload the page</li>
+            </ol>
+            <div class="timer">You can skip this message in <span id="countdown">5</span> seconds</div>
+            <button id="skipButton" class="skip-button" disabled>Skip</button>
+        </div>
+    </div>
+
+    <script>
+        // AdBlock detection
+        function detectAdBlock() {
+            const testAd = document.createElement('div');
+            testAd.innerHTML = '&nbsp;';
+            testAd.className = 'adsbox';
+            document.body.appendChild(testAd);
+            
+            window.setTimeout(function() {
+                if (testAd.offsetHeight === 0) {
+                    showAdblockMessage();
+                }
+                testAd.remove();
+            }, 100);
+        }
+
+        function showAdblockMessage() {
+            const overlay = document.getElementById('adblockOverlay');
+            const skipButton = document.getElementById('skipButton');
+            const countdown = document.getElementById('countdown');
+            let timeLeft = 10;
+
+            overlay.style.display = 'flex';
+            
+            const timer = setInterval(() => {
+                timeLeft--;
+                countdown.textContent = timeLeft;
+                
+                if (timeLeft <= 0) {
+                    clearInterval(timer);
+                    skipButton.disabled = false;
+                    skipButton.classList.add('active');
+                    document.querySelector('.timer').style.display = 'none';
+                }
+            }, 1000);
+
+            skipButton.addEventListener('click', () => {
+                if (timeLeft <= 0) {
+                    overlay.style.display = 'none';
+                }
+            });
+        }
+
+        // Check for AdBlock when page loads
+        window.addEventListener('load', detectAdBlock);
+    </script>
+
+
 <body>
     <h1>Testing Phase | 22/2/2025</h1>
     <h3>It's official, SportOnTV Matches will continue to work in May.</h3>
